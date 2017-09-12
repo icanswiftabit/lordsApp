@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE99FE2E1F671BA5004FBF74 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE99FE2D1F671BA5004FBF74 /* PureLayout.framework */; };
+		BE99FE311F6720EB004FBF74 /* Roles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE99FE301F6720EB004FBF74 /* Roles.swift */; };
+		BE99FE331F672455004FBF74 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE99FE321F672455004FBF74 /* Participant.swift */; };
+		BE99FE381F67B421004FBF74 /* RoleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE99FE371F67B421004FBF74 /* RoleMessage.swift */; };
+		BE99FE3C1F67B6D4004FBF74 /* Sendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE99FE3B1F67B6D4004FBF74 /* Sendable.swift */; };
+		BE99FE3E1F67B6DA004FBF74 /* FibonacciServiceProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE99FE3D1F67B6DA004FBF74 /* FibonacciServiceProviderDelegate.swift */; };
+		BECA5E381F606F18000747C8 /* RoleSelectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECA5E371F606F18000747C8 /* RoleSelectViewModel.swift */; };
+		BECA5E3F1F607249000747C8 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECA5E3B1F607249000747C8 /* RxBlocking.framework */; };
+		BECA5E401F607249000747C8 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECA5E3C1F607249000747C8 /* RxCocoa.framework */; };
+		BECA5E411F607249000747C8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECA5E3D1F607249000747C8 /* RxSwift.framework */; };
+		BED1D4DD1F55EFDD00689EB7 /* FibonacciServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1D4D81F55EFDD00689EB7 /* FibonacciServiceProvider.swift */; };
+		BED1D4DE1F55EFDD00689EB7 /* RoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1D4DA1F55EFDD00689EB7 /* RoleViewController.swift */; };
+		BED1D4DF1F55EFDD00689EB7 /* RoleSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1D4DC1F55EFDD00689EB7 /* RoleSelectView.swift */; };
 		BEE1E9231F55D99D00619978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE1E9221F55D99D00619978 /* AppDelegate.swift */; };
-		BEE1E9251F55D99D00619978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE1E9241F55D99D00619978 /* ViewController.swift */; };
-		BEE1E9281F55D99D00619978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE1E9261F55D99D00619978 /* Main.storyboard */; };
 		BEE1E92A1F55D99D00619978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE1E9291F55D99D00619978 /* Assets.xcassets */; };
 		BEE1E92D1F55D99D00619978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE1E92B1F55D99D00619978 /* LaunchScreen.storyboard */; };
-		BEE1E9391F55DA5C00619978 /* TestServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE1E9381F55DA5C00619978 /* TestServiceProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE99FE2D1F671BA5004FBF74 /* PureLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureLayout.framework; path = Carthage/Build/iOS/PureLayout.framework; sourceTree = "<group>"; };
+		BE99FE301F6720EB004FBF74 /* Roles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roles.swift; sourceTree = "<group>"; };
+		BE99FE321F672455004FBF74 /* Participant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
+		BE99FE371F67B421004FBF74 /* RoleMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleMessage.swift; sourceTree = "<group>"; };
+		BE99FE3B1F67B6D4004FBF74 /* Sendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sendable.swift; sourceTree = "<group>"; };
+		BE99FE3D1F67B6DA004FBF74 /* FibonacciServiceProviderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciServiceProviderDelegate.swift; sourceTree = "<group>"; };
+		BECA5E371F606F18000747C8 /* RoleSelectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleSelectViewModel.swift; sourceTree = "<group>"; };
+		BECA5E3B1F607249000747C8 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		BECA5E3C1F607249000747C8 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		BECA5E3D1F607249000747C8 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		BECA5E3E1F607249000747C8 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		BED1D4D81F55EFDD00689EB7 /* FibonacciServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciServiceProvider.swift; sourceTree = "<group>"; };
+		BED1D4DA1F55EFDD00689EB7 /* RoleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleViewController.swift; sourceTree = "<group>"; };
+		BED1D4DC1F55EFDD00689EB7 /* RoleSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleSelectView.swift; sourceTree = "<group>"; };
 		BEE1E91F1F55D99D00619978 /* LordsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LordsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE1E9221F55D99D00619978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEE1E9241F55D99D00619978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BEE1E9271F55D99D00619978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEE1E9291F55D99D00619978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE1E92C1F55D99D00619978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEE1E92E1F55D99D00619978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEE1E9381F55DA5C00619978 /* TestServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestServiceProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,16 +52,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECA5E401F607249000747C8 /* RxCocoa.framework in Frameworks */,
+				BECA5E3F1F607249000747C8 /* RxBlocking.framework in Frameworks */,
+				BECA5E411F607249000747C8 /* RxSwift.framework in Frameworks */,
+				BE99FE2E1F671BA5004FBF74 /* PureLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE99FE2F1F6720DC004FBF74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE99FE301F6720EB004FBF74 /* Roles.swift */,
+				BE99FE321F672455004FBF74 /* Participant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE99FE341F67ABA8004FBF74 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BE99FE371F67B421004FBF74 /* RoleMessage.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BE99FE3A1F67B6D4004FBF74 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BE99FE3B1F67B6D4004FBF74 /* Sendable.swift */,
+				BE99FE3D1F67B6DA004FBF74 /* FibonacciServiceProviderDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BECA5E361F606F03000747C8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BECA5E371F606F18000747C8 /* RoleSelectViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BECA5E3A1F607238000747C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE99FE2D1F671BA5004FBF74 /* PureLayout.framework */,
+				BECA5E3B1F607249000747C8 /* RxBlocking.framework */,
+				BECA5E3C1F607249000747C8 /* RxCocoa.framework */,
+				BECA5E3D1F607249000747C8 /* RxSwift.framework */,
+				BECA5E3E1F607249000747C8 /* RxTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BED1D4D71F55EFDD00689EB7 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				BED1D4D81F55EFDD00689EB7 /* FibonacciServiceProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		BED1D4D91F55EFDD00689EB7 /* ViewContorllers */ = {
+			isa = PBXGroup;
+			children = (
+				BED1D4DA1F55EFDD00689EB7 /* RoleViewController.swift */,
+			);
+			path = ViewContorllers;
+			sourceTree = "<group>";
+		};
+		BED1D4DB1F55EFDD00689EB7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BED1D4DC1F55EFDD00689EB7 /* RoleSelectView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BEE1E9161F55D99D00619978 = {
 			isa = PBXGroup;
 			children = (
 				BEE1E9211F55D99D00619978 /* LordsApp */,
+				BECA5E3A1F607238000747C8 /* Frameworks */,
 				BEE1E9201F55D99D00619978 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,24 +152,20 @@
 		BEE1E9211F55D99D00619978 /* LordsApp */ = {
 			isa = PBXGroup;
 			children = (
-				BEE1E9371F55DA5C00619978 /* Providers */,
+				BE99FE3A1F67B6D4004FBF74 /* Protocols */,
+				BE99FE341F67ABA8004FBF74 /* Networking */,
+				BE99FE2F1F6720DC004FBF74 /* Model */,
+				BECA5E361F606F03000747C8 /* ViewModels */,
+				BED1D4D71F55EFDD00689EB7 /* Providers */,
+				BED1D4D91F55EFDD00689EB7 /* ViewContorllers */,
+				BED1D4DB1F55EFDD00689EB7 /* Views */,
 				BEE1E9221F55D99D00619978 /* AppDelegate.swift */,
-				BEE1E9241F55D99D00619978 /* ViewController.swift */,
-				BEE1E9261F55D99D00619978 /* Main.storyboard */,
 				BEE1E9291F55D99D00619978 /* Assets.xcassets */,
 				BEE1E92B1F55D99D00619978 /* LaunchScreen.storyboard */,
 				BEE1E92E1F55D99D00619978 /* Info.plist */,
 			);
 			path = LordsApp;
 			sourceTree = "<group>";
-		};
-		BEE1E9371F55DA5C00619978 /* Providers */ = {
-			isa = PBXGroup;
-			children = (
-				BEE1E9381F55DA5C00619978 /* TestServiceProvider.swift */,
-			);
-			path = Providers;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -85,6 +177,7 @@
 				BEE1E91B1F55D99D00619978 /* Sources */,
 				BEE1E91C1F55D99D00619978 /* Frameworks */,
 				BEE1E91D1F55D99D00619978 /* Resources */,
+				BECA5E391F6071CF000747C8 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -107,6 +200,7 @@
 				TargetAttributes = {
 					BEE1E91E1F55D99D00619978 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B799ALMBWW;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,34 +230,57 @@
 			files = (
 				BEE1E92D1F55D99D00619978 /* LaunchScreen.storyboard in Resources */,
 				BEE1E92A1F55D99D00619978 /* Assets.xcassets in Resources */,
-				BEE1E9281F55D99D00619978 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BECA5E391F6071CF000747C8 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PureLayout.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework\n",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PureLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEE1E91B1F55D99D00619978 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE1E9251F55D99D00619978 /* ViewController.swift in Sources */,
+				BED1D4DE1F55EFDD00689EB7 /* RoleViewController.swift in Sources */,
+				BE99FE3C1F67B6D4004FBF74 /* Sendable.swift in Sources */,
+				BED1D4DD1F55EFDD00689EB7 /* FibonacciServiceProvider.swift in Sources */,
+				BED1D4DF1F55EFDD00689EB7 /* RoleSelectView.swift in Sources */,
+				BE99FE331F672455004FBF74 /* Participant.swift in Sources */,
 				BEE1E9231F55D99D00619978 /* AppDelegate.swift in Sources */,
-				BEE1E9391F55DA5C00619978 /* TestServiceProvider.swift in Sources */,
+				BECA5E381F606F18000747C8 /* RoleSelectViewModel.swift in Sources */,
+				BE99FE381F67B421004FBF74 /* RoleMessage.swift in Sources */,
+				BE99FE3E1F67B6DA004FBF74 /* FibonacciServiceProviderDelegate.swift in Sources */,
+				BE99FE311F6720EB004FBF74 /* Roles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BEE1E9261F55D99D00619978 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEE1E9271F55D99D00619978 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BEE1E92B1F55D99D00619978 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -272,6 +389,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B799ALMBWW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = LordsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.netguru.LordsApp;
@@ -284,6 +406,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B799ALMBWW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = LordsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.netguru.LordsApp;
